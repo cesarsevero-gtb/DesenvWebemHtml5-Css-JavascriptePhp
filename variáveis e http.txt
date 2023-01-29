@@ -1,0 +1,14 @@
+<html>]
+<body>
+
+<!-- Capiturando dados $_POST["Parametro"] via post ou $_GET["Parametro"] via get -->
+<!-- $_SESSION quando deixa o usuário logado na seção-->
+<?php
+	$n1 = $_POST["name"];
+	echo $n1;
+?>
+<br>
+Your email address is :
+<?php echo $_POST["email"];?>
+</body>
+</html>
